@@ -162,7 +162,7 @@ async function GetAllPlanets() {
                     <div class="relative mb-3 h-24 flex items-center justify-center">
                         <img
                         class="w-20 h-20 object-contain group-hover:scale-110 transition-transform"
-                        src="images/${planetData.englishName.toLowerCase()}.png"
+                        src="images/${planetData.englishName}.png"
                         alt="${planetData.englishName}"
                         />
                     </div>
@@ -233,7 +233,7 @@ function displayClickedPlanet(planetData) {
                                 <img
                                     id="planet-detail-image"
                                     class="w-full h-full object-contain"
-                                    src="images/${planetData.englishName.toLowerCase()}.png"
+                                    src="images/${planetData.englishName}.png"
                                     alt="${planetData.englishName}"
                                 />
                                 </div>
